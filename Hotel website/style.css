@@ -1,0 +1,281 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.container{
+    max-width: 1146px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+    
+
+}
+.text-primary{
+    color: #f7c08a;
+}
+.lead{
+    font-size: 20px;
+}
+.btn{
+    text-align: center;
+    display:inline-block;
+    font-size: 15px;
+    color:white;
+    background: #333;
+    padding: 8px 14px;
+    
+}
+.btn:hover{
+    background: #f5a8a8;
+    color:#333
+}
+.btn-light{
+    background: #333;
+    color:white;
+}
+.bg-dark{
+    background: #333;
+    color: white;
+}
+.bg-primary{
+    background: #f7c08a;
+    color: #333;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-primary{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+.py-1{
+    padding: 10px 0;
+}
+
+
+.py-2{
+    padding: 20px 0;
+}
+
+
+.py-3{
+    padding: 30px 0;
+}
+
+
+.clr{
+    clear: both;
+}
+
+
+/* Navbar */
+
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a{
+    color: #fff;
+    
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+    
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color:#f7c08a;
+}
+/* showcase */
+
+#showcase{
+    height: 600px;
+    background: url(./october-uzbekistan-tashkent-tashkent-city-district-building-hotel-hilton-five-stars-walking-street-evening-uzbekistan-tashkent-161932811.jpg) no-repeat center center/ cover;
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#home-info{
+    height: 400px;
+    display: flex;
+}
+#home-info .info-img{
+    justify-content: space-between;
+    width: 50%;
+    background: url(./bellagio-hotel-and-casino-wallpaper-preview.jpg) no-repeat;
+    min-height: 100%;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}#home-info .info-content p{
+    padding-bottom: 30px;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+
+
+/* footer */
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+
+#testimonials{
+    height: 600px;
+    background: url("./img/test-bg.jpg") no-repeat center center/ cover ;
+}
+#testimonials  h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img{
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+    border-radius : 50%;
+}
+#testimonials .testimonial p {
+    line-height: 40px;
+}
+
+
+
+    
+#contact-form .container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    line-height: 3rem;
+}
+
+.form-group{
+    width: 100%;
+    text-align: center;
+}
+.form-group input{
+    width: 300px;
+    height: 30px;
+    border-style: double;
+    border-color: #f7c08a;
+    border-radius: 3px;
+}
+
+.form-group textarea{
+    text-align: center;
+    width: 300px;
+    border-radius: 3px;
+    border-color: #f7c08a;
+    
+}
+
+.form-group label{
+    display: block;
+    text-align: start;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
